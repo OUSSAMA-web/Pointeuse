@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Activity.Pointeuse.LoginActivity"
+    android:orientation="vertical"
+    >
+    <include
+
+        layout="@layout/toolbar3"></include>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/upec"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="-60dp"
+
+
+
+            />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50.3dp"
+
+
+        android:orientation="vertical">
+
+
+
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26.3dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif"
+            android:text="Choisi votre classe :"
+            android:textColor="@color/black_txt_Color"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26.3dp"
+            android:layout_marginRight="26.3dp"
+            android:layout_marginTop="41dp"
+            android:background="@drawable/signin_rect"
+            android:elevation="1dp"
+            android:orientation="vertical"
+            >
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26.3dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="Choisi Cycle :"
+                android:textColor="@color/black_txt_Color"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/spinnerCycle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26.3dp"
+            android:layout_marginRight="26.3dp"
+            android:layout_marginTop="41dp"
+            android:background="@drawable/signin_rect"
+            android:elevation="1dp"
+            android:orientation="vertical"
+            >
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26.3dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="Choisi Fillier :"
+                android:textColor="@color/black_txt_Color"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/spinnerFillier"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26.3dp"
+            android:layout_marginRight="26.3dp"
+            android:layout_marginTop="41dp"
+            android:background="@drawable/signin_rect"
+            android:elevation="1dp"
+            android:orientation="vertical"
+            >
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26.3dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="sans-serif"
+                android:text="Choisi l'Année :"
+                android:textColor="@color/black_txt_Color"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <Spinner
+                android:id="@+id/spinnerAnnee"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+
+                />
+        </LinearLayout>
+
+        <customfonts.Button_Roboto_Medium
+            android:id="@+id/Pointer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:elevation="1dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/signin_rect"
+            android:gravity="center_horizontal"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:paddingBottom="15.7dp"
+            android:paddingTop="15.7dp"
+            android:layout_marginRight="26.3dp"
+            android:layout_marginLeft="26.3dp"
+            android:textColor="@color/bg_blue"
+            android:text="Pointer "/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

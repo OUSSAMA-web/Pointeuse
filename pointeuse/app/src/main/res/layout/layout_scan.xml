@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+
+    <include layout="@layout/toolbar2"></include>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        >
+    <LinearLayout
+        android:id="@+id/ajouter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:paddingTop="14.3dp"
+        android:paddingBottom="14.3dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/signin_rect"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/copy"
+            android:layout_gravity="center_vertical"/>
+           <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal"
+            android:textColor="#f34a38"
+            android:gravity="center_horizontal"
+            android:text="Ajouter"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/envoyer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:paddingTop="14.3dp"
+            android:paddingBottom="14.3dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/signin_rect"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            >
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/send_money"
+                android:layout_gravity="center_vertical"/>
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="sans-serif"
+                android:textStyle="normal"
+                android:textColor="#12B33F"
+                android:gravity="center_horizontal"
+                android:text="Envoyer la liste"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/listPresence"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "403535719757",
+    "firebase_url": "https://pointeuseoussama.firebaseio.com",
+    "project_id": "pointeuseoussama",
+    "storage_bucket": "pointeuseoussama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403535719757:android:9fbc206d07d7eeed",
+        "android_client_info": {
+          "package_name": "wolfsoft1.pay2wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403535719757-fod6f6icks3l1pd4p06svufe98bqfbpk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "wolfsoft1.pay2wallet",
+            "certificate_hash": "bcac74a19245268e876c503ba5de8f7d93a9982b"
+          }
+        },
+        {
+          "client_id": "403535719757-kaijatl5llc6b4g3kg13h0jag4sotcbu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByO3LcgnuKVX74VwVAZ7FDFfPq2jpvvME"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403535719757-kaijatl5llc6b4g3kg13h0jag4sotcbu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
